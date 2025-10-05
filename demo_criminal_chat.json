@@ -1,0 +1,123 @@
+{
+ "name": "Harbor Logistics",
+ "type": "private_supergroup",
+ "id": 7788991122,
+ "messages": [
+  {
+   "id": -999999999,
+   "type": "service",
+   "date": "2025-09-25T08:00:00",
+   "date_unixtime": "1758739200",
+   "actor": "Raven",
+   "actor_id": "user55331122",
+   "action": "create_group",
+   "title": "Harbor Logistics",
+   "members": ["Raven"],
+   "text": "",
+   "text_entities": []
+  },
+
+  {
+   "id": 1,
+   "type": "message",
+   "date": "2025-09-25T09:15:00",
+   "date_unixtime": "1758743700",
+   "from": "Raven",
+   "from_id": "user55331122",
+   "text": "Check the crates near Antwerp docks. Drop-off confirmed.",
+   "text_entities": [{"type": "plain", "text": "Check the crates near Antwerp docks. Drop-off confirmed."}]
+  },
+  {
+   "id": 2,
+   "type": "message",
+   "date": "2025-09-25T09:45:00",
+   "date_unixtime": "1758745500",
+   "from": "Ghost",
+   "from_id": "user99887766",
+   "text": "🐍 spotted near gate 4. Stay low.",
+   "text_entities": [{"type": "plain", "text": "🐍 spotted near gate 4. Stay low."}]
+  },
+  {
+   "id": 3,
+   "type": "message",
+   "date": "2025-09-25T10:30:00",
+   "date_unixtime": "1758748200",
+   "from": "Raven",
+   "from_id": "user55331122",
+   "text": "Use the backup link: http://safeconnect-logi.net/q42",
+   "text_entities": [{"type": "url", "text": "http://safeconnect-logi.net/q42"}]
+  },
+
+  {
+   "id": 4,
+   "type": "message",
+   "date": "2025-09-26T14:10:00",
+   "date_unixtime": "1758838200",
+   "from": "Ghost",
+   "from_id": "user99887766",
+   "text": "❄️ crates moved to Rotterdam warehouse.",
+   "text_entities": [{"type": "plain", "text": "❄️ crates moved to Rotterdam warehouse."}]
+  },
+  {
+   "id": 5,
+   "type": "message",
+   "date": "2025-09-26T15:40:00",
+   "date_unixtime": "1758843600",
+   "from": "Viper",
+   "from_id": "user11224455",
+   "text": "Meet at the usual café in Breda tonight. No phones.",
+   "text_entities": [{"type": "plain", "text": "Meet at the usual café in Breda tonight. No phones."}]
+  },
+  {
+   "id": 6,
+   "type": "message",
+   "date": "2025-09-26T18:25:00",
+   "date_unixtime": "1758853500",
+   "from": "Raven",
+   "from_id": "user55331122",
+   "text": "Keep eyes on the van. Plates changed already.",
+   "text_entities": [{"type": "plain", "text": "Keep eyes on the van. Plates changed already."}]
+  },
+
+  {
+   "id": 7,
+   "type": "message",
+   "date": "2025-09-27T07:50:00",
+   "date_unixtime": "1758911400",
+   "from": "Viper",
+   "from_id": "user11224455",
+   "text": "Next move: deliver in Brussels at dawn. Raven has the key 🔑.",
+   "text_entities": [{"type": "plain", "text": "Next move: deliver in Brussels at dawn. Raven has the key 🔑."}]
+  },
+  {
+   "id": 8,
+   "type": "message",
+   "date": "2025-09-27T09:15:00",
+   "date_unixtime": "1758916500",
+   "from": "Ghost",
+   "from_id": "user99887766",
+   "text": "❄️ secured. Payment in crypto only. Drop wallet link?",
+   "text_entities": [{"type": "plain", "text": "❄️ secured. Payment in crypto only. Drop wallet link?"}]
+  },
+  {
+   "id": 9,
+   "type": "message",
+   "date": "2025-09-27T09:25:00",
+   "date_unixtime": "1758917100",
+   "from": "Raven",
+   "from_id": "user55331122",
+   "text": "Wallet: http://bitsecurexchange.io/pay/77x",
+   "text_entities": [{"type": "url", "text": "http://bitsecurexchange.io/pay/77x"}]
+  },
+  {
+   "id": 10,
+   "type": "message",
+   "date": "2025-09-27T10:00:00",
+   "date_unixtime": "1758919200",
+   "from": "Viper",
+   "from_id": "user11224455",
+   "text": "Done. Now vanish until further notice.",
+   "text_entities": [{"type": "plain", "text": "Done. Now vanish until further notice."}]
+  }
+ ]
+}
