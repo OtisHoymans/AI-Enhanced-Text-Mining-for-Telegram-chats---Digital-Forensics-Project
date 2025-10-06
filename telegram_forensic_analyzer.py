@@ -14,7 +14,7 @@ import numpy as np
 from config import API_KEY
 import os
 
-# ======================== Page Configuration ========================
+# Page Configuration
 st.set_page_config(
     page_title="Telegram Forensic Analyzer",
     layout="wide",
@@ -37,7 +37,7 @@ except FileNotFoundError:
     st.error("CSS file not found. Please ensure 'styles.css' exists.")
     st.stop()
 
-# ======================== Analyzer Class ========================
+# Analyzer Class
 class TelegramForensicAnalyzer:
     def __init__(self, api_key: str = API_KEY):
         genai.configure(api_key=api_key)
@@ -171,7 +171,7 @@ Chat:
         except:
             return {"names": [], "locations": [], "organizations": [], "suspicious_terms": []}
 
-# ======================== Enhanced Visualization Functions ========================
+# Enhanced Visualization Functions
 def create_timeline_chart(df: pd.DataFrame):
     daily = df.groupby("day").size().reset_index(name="count")
     fig = go.Figure()
@@ -360,7 +360,7 @@ def create_message_length_distribution(df: pd.DataFrame):
     )
     return fig
 
-# ======================== Helper Functions ========================
+# Helper Functions
 def load_json(file):
     try:
         return pd.DataFrame(json.load(file).get("messages", []))
@@ -376,7 +376,7 @@ def render_metric_card(value, label, color):
     </div>
     """, unsafe_allow_html=True)
 
-# ======================== Main Application ========================
+# Main Application
 def main():
     # Header
     st.markdown("""

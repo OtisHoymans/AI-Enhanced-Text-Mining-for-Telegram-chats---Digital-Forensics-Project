@@ -1,123 +1,608 @@
 {
- "name": "Harbor Logistics",
- "type": "private_supergroup",
- "id": 7788991122,
- "messages": [
-  {
-   "id": -999999999,
-   "type": "service",
-   "date": "2025-09-25T08:00:00",
-   "date_unixtime": "1758739200",
-   "actor": "Raven",
-   "actor_id": "user55331122",
-   "action": "create_group",
-   "title": "Harbor Logistics",
-   "members": ["Raven"],
-   "text": "",
-   "text_entities": []
-  },
-
-  {
-   "id": 1,
-   "type": "message",
-   "date": "2025-09-25T09:15:00",
-   "date_unixtime": "1758743700",
-   "from": "Raven",
-   "from_id": "user55331122",
-   "text": "Check the crates near Antwerp docks. Drop-off confirmed.",
-   "text_entities": [{"type": "plain", "text": "Check the crates near Antwerp docks. Drop-off confirmed."}]
-  },
-  {
-   "id": 2,
-   "type": "message",
-   "date": "2025-09-25T09:45:00",
-   "date_unixtime": "1758745500",
-   "from": "Ghost",
-   "from_id": "user99887766",
-   "text": "🐍 spotted near gate 4. Stay low.",
-   "text_entities": [{"type": "plain", "text": "🐍 spotted near gate 4. Stay low."}]
-  },
-  {
-   "id": 3,
-   "type": "message",
-   "date": "2025-09-25T10:30:00",
-   "date_unixtime": "1758748200",
-   "from": "Raven",
-   "from_id": "user55331122",
-   "text": "Use the backup link: http://safeconnect-logi.net/q42",
-   "text_entities": [{"type": "url", "text": "http://safeconnect-logi.net/q42"}]
-  },
-
-  {
-   "id": 4,
-   "type": "message",
-   "date": "2025-09-26T14:10:00",
-   "date_unixtime": "1758838200",
-   "from": "Ghost",
-   "from_id": "user99887766",
-   "text": "❄️ crates moved to Rotterdam warehouse.",
-   "text_entities": [{"type": "plain", "text": "❄️ crates moved to Rotterdam warehouse."}]
-  },
-  {
-   "id": 5,
-   "type": "message",
-   "date": "2025-09-26T15:40:00",
-   "date_unixtime": "1758843600",
-   "from": "Viper",
-   "from_id": "user11224455",
-   "text": "Meet at the usual café in Breda tonight. No phones.",
-   "text_entities": [{"type": "plain", "text": "Meet at the usual café in Breda tonight. No phones."}]
-  },
-  {
-   "id": 6,
-   "type": "message",
-   "date": "2025-09-26T18:25:00",
-   "date_unixtime": "1758853500",
-   "from": "Raven",
-   "from_id": "user55331122",
-   "text": "Keep eyes on the van. Plates changed already.",
-   "text_entities": [{"type": "plain", "text": "Keep eyes on the van. Plates changed already."}]
-  },
-
-  {
-   "id": 7,
-   "type": "message",
-   "date": "2025-09-27T07:50:00",
-   "date_unixtime": "1758911400",
-   "from": "Viper",
-   "from_id": "user11224455",
-   "text": "Next move: deliver in Brussels at dawn. Raven has the key 🔑.",
-   "text_entities": [{"type": "plain", "text": "Next move: deliver in Brussels at dawn. Raven has the key 🔑."}]
-  },
-  {
-   "id": 8,
-   "type": "message",
-   "date": "2025-09-27T09:15:00",
-   "date_unixtime": "1758916500",
-   "from": "Ghost",
-   "from_id": "user99887766",
-   "text": "❄️ secured. Payment in crypto only. Drop wallet link?",
-   "text_entities": [{"type": "plain", "text": "❄️ secured. Payment in crypto only. Drop wallet link?"}]
-  },
-  {
-   "id": 9,
-   "type": "message",
-   "date": "2025-09-27T09:25:00",
-   "date_unixtime": "1758917100",
-   "from": "Raven",
-   "from_id": "user55331122",
-   "text": "Wallet: http://bitsecurexchange.io/pay/77x",
-   "text_entities": [{"type": "url", "text": "http://bitsecurexchange.io/pay/77x"}]
-  },
-  {
-   "id": 10,
-   "type": "message",
-   "date": "2025-09-27T10:00:00",
-   "date_unixtime": "1758919200",
-   "from": "Viper",
-   "from_id": "user11224455",
-   "text": "Done. Now vanish until further notice.",
-   "text_entities": [{"type": "plain", "text": "Done. Now vanish until further notice."}]
-  }
- ]
+  "type": "chat",
+  "id": 1234567890,
+  "title": "Sample - Demo Criminal Chat (Synthetic)",
+  "exported_at": "2025-10-06T18:00:00",
+  "messages": [
+    {
+      "id": 1,
+      "type": "message",
+      "date": "2025-09-01T08:12:05",
+      "date_unixtime": "1754584325",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "morning all 👋",
+      "text_entities": [{"type":"plain","text":"morning all 👋"}]
+    },
+    {
+      "id": 2,
+      "type": "message",
+      "date": "2025-09-01T08:13:12",
+      "date_unixtime": "1754584392",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Ready for today. Check the blue-roses thread later.",
+      "text_entities": [{"type":"plain","text":"Ready for today. Check the blue-roses thread later."}]
+    },
+    {
+      "id": 3,
+      "type": "message",
+      "date": "2025-09-01T08:14:45",
+      "date_unixtime": "1754584485",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "👍",
+      "text_entities": [{"type":"plain","text":"👍"}]
+    },
+    {
+      "id": 4,
+      "type": "message",
+      "date": "2025-09-01T09:02:01",
+      "date_unixtime": "1754587321",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Parcel moved. ETA evening. Use codeword: `orchid` in comms.",
+      "text_entities": [{"type":"plain","text":"Parcel moved. ETA evening. Use codeword: `orchid` in comms."}]
+    },
+    {
+      "id": 5,
+      "type": "message",
+      "date": "2025-09-01T09:05:10",
+      "date_unixtime": "1754587510",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Noted. 📦 -> dock",
+      "text_entities": [{"type":"plain","text":"Noted. 📦 -> dock"}]
+    },
+    {
+      "id": 6,
+      "type": "message",
+      "date": "2025-09-02T11:20:33",
+      "date_unixtime": "1754682033",
+      "from": "user_Delta",
+      "from_id": "user1004",
+      "text": "Who has contact for drop? call +10000000001",
+      "text_entities": [{"type":"plain","text":"Who has contact for drop? call +10000000001"}]
+    },
+    {
+      "id": 7,
+      "type": "message",
+      "date": "2025-09-02T11:21:10",
+      "date_unixtime": "1754682070",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Use the new number: +19998887777 (temporary).",
+      "text_entities": [{"type":"plain","text":"Use the new number: +19998887777 (temporary)."}]
+    },
+    {
+      "id": 8,
+      "type": "message",
+      "date": "2025-09-03T22:45:00",
+      "date_unixtime": "1754820300",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "Prices: small batch 5k, medium 9k, big 16k — confirm.",
+      "text_entities": [{"type":"plain","text":"Prices: small batch 5k, medium 9k, big 16k — confirm."}]
+    },
+    {
+      "id": 9,
+      "type": "message",
+      "date": "2025-09-04T00:10:17",
+      "date_unixtime": "1754825417",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "orchid = greenlight. proceed softly.",
+      "text_entities": [{"type":"plain","text":"orchid = greenlight. proceed softly."}]
+    },
+    {
+      "id": 10,
+      "type": "message",
+      "date": "2025-09-04T00:11:45",
+      "date_unixtime": "1754825505",
+      "from": "user_Echo",
+      "from_id": "user1005",
+      "text": "sending invoice to finance@placeholder.test",
+      "text_entities": [{"type":"plain","text":"sending invoice to finance@placeholder.test"}]
+    },
+    {
+      "id": 11,
+      "type": "message",
+      "date": "2025-09-05T14:00:00",
+      "date_unixtime": "1754959200",
+      "from": "user_Foxtrot",
+      "from_id": "user1006",
+      "text": "Meeting at 18:00. Bring the 'roses' catalog.",
+      "text_entities": [{"type":"plain","text":"Meeting at 18:00. Bring the 'roses' catalog."}]
+    },
+    {
+      "id": 12,
+      "type": "message",
+      "date": "2025-09-05T18:02:30",
+      "date_unixtime": "1754970150",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Arrived. few ppl, low profile. 🚗",
+      "text_entities": [{"type":"plain","text":"Arrived. few ppl, low profile. 🚗"}]
+    },
+    {
+      "id": 13,
+      "type": "message",
+      "date": "2025-09-06T03:15:10",
+      "date_unixtime": "1755005710",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Leave nothing in car. Delete msgs after reading. 🔒",
+      "text_entities": [{"type":"plain","text":"Leave nothing in car. Delete msgs after reading. 🔒"}]
+    },
+    {
+      "id": 14,
+      "type": "message",
+      "date": "2025-09-10T09:30:00",
+      "date_unixtime": "1755340200",
+      "from": "user_Delta",
+      "from_id": "user1004",
+      "text": "Batch ready. confirm pickup location?",
+      "text_entities": [{"type":"plain","text":"Batch ready. confirm pickup location?"}]
+    },
+    {
+      "id": 15,
+      "type": "message",
+      "date": "2025-09-10T09:31:10",
+      "date_unixtime": "1755340270",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Pier 7, east side. No photos. no tags.",
+      "text_entities": [{"type":"plain","text":"Pier 7, east side. No photos. no tags."}]
+    },
+    {
+      "id": 16,
+      "type": "message",
+      "date": "2025-09-12T21:22:22",
+      "date_unixtime": "1755546142",
+      "from": "user_Golf",
+      "from_id": "user1007",
+      "text": "Confirmed. Driver CN-45 will take it.",
+      "text_entities": [{"type":"plain","text":"Confirmed. Driver CN-45 will take it."}]
+    },
+    {
+      "id": 17,
+      "type": "message",
+      "date": "2025-09-12T21:25:00",
+      "date_unixtime": "1755546300",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Driver contact: +12223334444",
+      "text_entities": [{"type":"plain","text":"Driver contact: +12223334444"}]
+    },
+    {
+      "id": 18,
+      "type": "message",
+      "date": "2025-09-15T12:00:00",
+      "date_unixtime": "1755758400",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "Delay due to weather. hold for 24h.",
+      "text_entities": [{"type":"plain","text":"Delay due to weather. hold for 24h."}]
+    },
+    {
+      "id": 19,
+      "type": "message",
+      "date": "2025-09-16T00:05:05",
+      "date_unixtime": "1755822305",
+      "from": "user_Echo",
+      "from_id": "user1005",
+      "text": "Use emoji when confirming: 🌹 = ok, 🥀 = delay",
+      "text_entities": [{"type":"plain","text":"Use emoji when confirming: 🌹 = ok, 🥀 = delay"}]
+    },
+    {
+      "id": 20,
+      "type": "message",
+      "date": "2025-09-16T00:06:00",
+      "date_unixtime": "1755822360",
+      "from": "user_Golf",
+      "from_id": "user1007",
+      "text": "🌹",
+      "text_entities": [{"type":"plain","text":"🌹"}]
+    },
+    {
+      "id": 21,
+      "type": "message",
+      "date": "2025-09-18T19:45:12",
+      "date_unixtime": "1756009512",
+      "from": "user_Hotel",
+      "from_id": "user1008",
+      "text": "Payment processed. ref #XZ-993. sender: accounts@placeholder.test",
+      "text_entities": [{"type":"plain","text":"Payment processed. ref #XZ-993. sender: accounts@placeholder.test"}]
+    },
+    {
+      "id": 22,
+      "type": "message",
+      "date": "2025-09-19T03:11:11",
+      "date_unixtime": "1756032671",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Ship tonight. keep comms tight.",
+      "text_entities": [{"type":"plain","text":"Ship tonight. keep comms tight."}]
+    },
+    {
+      "id": 23,
+      "type": "message",
+      "date": "2025-09-19T03:12:34",
+      "date_unixtime": "1756032754",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "All set. link to manifest: https://example.com/manifest_0925.pdf",
+      "text_entities": [{"type":"url","text":"https://example.com/manifest_0925.pdf"}]
+    },
+    {
+      "id": 24,
+      "type": "message",
+      "date": "2025-09-21T10:00:00",
+      "date_unixtime": "1756173600",
+      "from": "user_Delta",
+      "from_id": "user1004",
+      "text": "Scan received, looks clean.",
+      "text_entities": [{"type":"plain","text":"Scan received, looks clean."}]
+    },
+    {
+      "id": 25,
+      "type": "message",
+      "date": "2025-09-23T13:30:00",
+      "date_unixtime": "1756347000",
+      "from": "user_Foxtrot",
+      "from_id": "user1006",
+      "text": "We must rotate phones. new sim swap plan next week.",
+      "text_entities": [{"type":"plain","text":"We must rotate phones. new sim swap plan next week."}]
+    },
+    {
+      "id": 26,
+      "type": "message",
+      "date": "2025-09-24T22:22:22",
+      "date_unixtime": "1756467742",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "Coordinate with 'orchid' group; check 12:00 UTC window.",
+      "text_entities": [{"type":"plain","text":"Coordinate with 'orchid' group; check 12:00 UTC window."}]
+    },
+    {
+      "id": 27,
+      "type": "message",
+      "date": "2025-09-25T12:00:00",
+      "date_unixtime": "1756516800",
+      "from": "user_Golf",
+      "from_id": "user1007",
+      "text": "12:00 window confirmed. driver delayed by 2h.",
+      "text_entities": [{"type":"plain","text":"12:00 window confirmed. driver delayed by 2h."}]
+    },
+    {
+      "id": 28,
+      "type": "message",
+      "date": "2025-09-26T02:00:00",
+      "date_unixtime": "1756603200",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Switch to burner #B-77 if flagged.",
+      "text_entities": [{"type":"plain","text":"Switch to burner #B-77 if flagged."}]
+    },
+    {
+      "id": 29,
+      "type": "message",
+      "date": "2025-09-27T16:45:00",
+      "date_unixtime": "1756723500",
+      "from": "user_Echo",
+      "from_id": "user1005",
+      "text": "New contact: ilana (contact: +14445556666). Use only via text.",
+      "text_entities": [{"type":"plain","text":"New contact: ilana (contact: +14445556666). Use only via text."}]
+    },
+    {
+      "id": 30,
+      "type": "message",
+      "date": "2025-09-29T09:09:09",
+      "date_unixtime": "1756873749",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "Testing tools. ignore previous.",
+      "text_entities": [{"type":"plain","text":"Testing tools. ignore previous."}]
+    },
+    {
+      "id": 31,
+      "type": "message",
+      "date": "2025-09-30T23:59:59",
+      "date_unixtime": "1756972799",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Night ops complete. all quiet. 🕶️",
+      "text_entities": [{"type":"plain","text":"Night ops complete. all quiet. 🕶️"}]
+    },
+    {
+      "id": 32,
+      "type": "message",
+      "date": "2025-10-01T07:00:00",
+      "date_unixtime": "1757017200",
+      "from": "user_Hotel",
+      "from_id": "user1008",
+      "text": "Incoming payment delayed. check with accounts@placeholder.test",
+      "text_entities": [{"type":"plain","text":"Incoming payment delayed. check with accounts@placeholder.test"}]
+    },
+    {
+      "id": 33,
+      "type": "message",
+      "date": "2025-10-02T12:12:12",
+      "date_unixtime": "1757133132",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Pattern: messages cluster around midnight — watch for spikes.",
+      "text_entities": [{"type":"plain","text":"Pattern: messages cluster around midnight — watch for spikes."}]
+    },
+    {
+      "id": 34,
+      "type": "message",
+      "date": "2025-10-02T12:13:00",
+      "date_unixtime": "1757133180",
+      "from": "user_Delta",
+      "from_id": "user1004",
+      "text": "Someone posted a screenshot on public channel. remove if possible.",
+      "text_entities": [{"type":"plain","text":"Someone posted a screenshot on public channel. remove if possible."}]
+    },
+    {
+      "id": 35,
+      "type": "message",
+      "date": "2025-10-03T18:18:18",
+      "date_unixtime": "1757246298",
+      "from": "user_Foxtrot",
+      "from_id": "user1006",
+      "text": "Reminder: never use real names. nicknames only.",
+      "text_entities": [{"type":"plain","text":"Reminder: never use real names. nicknames only."}]
+    },
+    {
+      "id": 36,
+      "type": "message",
+      "date": "2025-10-04T10:00:00",
+      "date_unixtime": "1757344800",
+      "from": "user_Golf",
+      "from_id": "user1007",
+      "text": "Heatmap shows clustered activity last week; see attached.",
+      "text_entities": [{"type":"plain","text":"Heatmap shows clustered activity last week; see attached."}]
+    },
+    {
+      "id": 37,
+      "type": "message",
+      "date": "2025-10-04T10:12:00",
+      "date_unixtime": "1757345520",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Attach: manifest_final.csv",
+      "text_entities": [{"type":"plain","text":"Attach: manifest_final.csv"}]
+    },
+    {
+      "id": 38,
+      "type": "message",
+      "date": "2025-10-04T12:00:00",
+      "date_unixtime": "1757352000",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "Is there an alternate drop if Pier 7 is hot?",
+      "text_entities": [{"type":"plain","text":"Is there an alternate drop if Pier 7 is hot?"}]
+    },
+    {
+      "id": 39,
+      "type": "message",
+      "date": "2025-10-04T12:05:00",
+      "date_unixtime": "1757352300",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Plan B: south quay. share coords privately.",
+      "text_entities": [{"type":"plain","text":"Plan B: south quay. share coords privately."}]
+    },
+    {
+      "id": 40,
+      "type": "message",
+      "date": "2025-10-04T13:30:00",
+      "date_unixtime": "1757357400",
+      "from": "user_Echo",
+      "from_id": "user1005",
+      "text": "Coord changed. confirm with 🌹 once received.",
+      "text_entities": [{"type":"plain","text":"Coord changed. confirm with 🌹 once received."}]
+    },
+    {
+      "id": 41,
+      "type": "message",
+      "date": "2025-10-04T13:31:05",
+      "date_unixtime": "1757357465",
+      "from": "user_Golf",
+      "from_id": "user1007",
+      "text": "🌹",
+      "text_entities": [{"type":"plain","text":"🌹"}]
+    },
+    {
+      "id": 42,
+      "type": "message",
+      "date": "2025-10-04T18:45:00",
+      "date_unixtime": "1757372700",
+      "from": "user_Delta",
+      "from_id": "user1004",
+      "text": "Report: drop executed. minimal contact. good job.",
+      "text_entities": [{"type":"plain","text":"Report: drop executed. minimal contact. good job."}]
+    },
+    {
+      "id": 43,
+      "type": "message",
+      "date": "2025-10-04T18:46:30",
+      "date_unixtime": "1757372790",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "Keep receipts off system. dispose in 48h.",
+      "text_entities": [{"type":"plain","text":"Keep receipts off system. dispose in 48h."}]
+    },
+    {
+      "id": 44,
+      "type": "message",
+      "date": "2025-10-05T08:00:00",
+      "date_unixtime": "1757433600",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Client requests update. short summary please.",
+      "text_entities": [{"type":"plain","text":"Client requests update. short summary please."}]
+    },
+    {
+      "id": 45,
+      "type": "message",
+      "date": "2025-10-05T08:05:00",
+      "date_unixtime": "1757433900",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Summary: delivery OK, funds pending. ref: #XZ-993",
+      "text_entities": [{"type":"plain","text":"Summary: delivery OK, funds pending. ref: #XZ-993"}]
+    },
+    {
+      "id": 46,
+      "type": "message",
+      "date": "2025-10-05T12:10:12",
+      "date_unixtime": "1757447412",
+      "from": "user_Hotel",
+      "from_id": "user1008",
+      "text": "Funds cleared to escrow. notify accounts@placeholder.test",
+      "text_entities": [{"type":"plain","text":"Funds cleared to escrow. notify accounts@placeholder.test"}]
+    },
+    {
+      "id": 47,
+      "type": "message",
+      "date": "2025-10-05T13:55:00",
+      "date_unixtime": "1757453700",
+      "from": "user_Foxtrot",
+      "from_id": "user1006",
+      "text": "Reminder: keep comms on this thread minimal for 72h.",
+      "text_entities": [{"type":"plain","text":"Reminder: keep comms on this thread minimal for 72h."}]
+    },
+    {
+      "id": 48,
+      "type": "message",
+      "date": "2025-10-05T14:00:00",
+      "date_unixtime": "1757454000",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Acknowledged. wiping devices after 36h.",
+      "text_entities": [{"type":"plain","text":"Acknowledged. wiping devices after 36h."}]
+    },
+    {
+      "id": 49,
+      "type": "message",
+      "date": "2025-10-05T20:30:00",
+      "date_unixtime": "1757471400",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "We saw unusual activity near Pier 7 today. anyone notice?",
+      "text_entities": [{"type":"plain","text":"We saw unusual activity near Pier 7 today. anyone notice?"}]
+    },
+    {
+      "id": 50,
+      "type": "message",
+      "date": "2025-10-05T20:31:22",
+      "date_unixtime": "1757471482",
+      "from": "user_Golf",
+      "from_id": "user1007",
+      "text": "Yes, extra patrols. Keep low profile.",
+      "text_entities": [{"type":"plain","text":"Yes, extra patrols. Keep low profile."}]
+    },
+    {
+      "id": 51,
+      "type": "message",
+      "date": "2025-10-06T09:00:00",
+      "date_unixtime": "1757523600",
+      "from": "user_Echo",
+      "from_id": "user1005",
+      "text": "Meeting rescheduled to tomorrow 08:00. confirm with 🌹",
+      "text_entities": [{"type":"plain","text":"Meeting rescheduled to tomorrow 08:00. confirm with 🌹"}]
+    },
+    {
+      "id": 52,
+      "type": "message",
+      "date": "2025-10-06T09:02:10",
+      "date_unixtime": "1757523730",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "🌹",
+      "text_entities": [{"type":"plain","text":"🌹"}]
+    },
+    {
+      "id": 53,
+      "type": "message",
+      "date": "2025-10-06T10:15:00",
+      "date_unixtime": "1757528100",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Final report: all clear. closing thread in 24h.",
+      "text_entities": [{"type":"plain","text":"Final report: all clear. closing thread in 24h."}]
+    },
+    {
+      "id": 54,
+      "type": "message",
+      "date": "2025-10-06T10:16:30",
+      "date_unixtime": "1757528190",
+      "from": "user_Charlie",
+      "from_id": "user1003",
+      "text": "Thanks team. good work. 👏",
+      "text_entities": [{"type":"plain","text":"Thanks team. good work. 👏"}]
+    },
+    {
+      "id": 55,
+      "type": "message",
+      "date": "2025-10-06T11:00:00",
+      "date_unixtime": "1757530800",
+      "from": "user_Incoming",
+      "from_id": "user1009",
+      "text": "Hello — this is a public channel repost, ignore for demo.",
+      "text_entities": [{"type":"plain","text":"Hello — this is a public channel repost, ignore for demo."}]
+    },
+    {
+      "id": 56,
+      "type": "message",
+      "date": "2025-10-06T12:30:00",
+      "date_unixtime": "1757536200",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "Upload logs to cloud: https://example.com/logs/20251006.zip",
+      "text_entities": [{"type":"url","text":"https://example.com/logs/20251006.zip"}]
+    },
+    {
+      "id": 57,
+      "type": "message",
+      "date": "2025-10-06T12:45:00",
+      "date_unixtime": "1757537100",
+      "from": "user_Bravo",
+      "from_id": "user1002",
+      "text": "Remove public mentions. use @burner only.",
+      "text_entities": [{"type":"plain","text":"Remove public mentions. use @burner only."}]
+    },
+    {
+      "id": 58,
+      "type": "message",
+      "date": "2025-10-06T13:00:00",
+      "date_unixtime": "1757538000",
+      "from": "user_Delta",
+      "from_id": "user1004",
+      "text": "Contact list: Alice, Bob, Charlie — nicknames used.",
+      "text_entities": [{"type":"plain","text":"Contact list: Alice, Bob, Charlie — nicknames used."}]
+    },
+    {
+      "id": 59,
+      "type": "message",
+      "date": "2025-10-06T13:05:00",
+      "date_unixtime": "1757538300",
+      "from": "user_Echo",
+      "from_id": "user1005",
+      "text": "Reminder: sanitize metadata on docs before share.",
+      "text_entities": [{"type":"plain","text":"Reminder: sanitize metadata on docs before share."}]
+    },
+    {
+      "id": 60,
+      "type": "message",
+      "date": "2025-10-06T13:15:00",
+      "date_unixtime": "1757538900",
+      "from": "user_Alex",
+      "from_id": "user1001",
+      "text": "End of demo thread. Destroy messages after 48h.",
+      "text_entities": [{"type":"plain","text":"End of demo thread. Destroy messages after 48h."}]
+    }
+  ]
 }

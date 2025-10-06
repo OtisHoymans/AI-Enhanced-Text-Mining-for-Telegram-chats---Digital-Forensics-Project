@@ -1,6 +1,0 @@
-Text-based mining sources to back 'novel contribution' with AI integration:
-https://aisel.aisnet.org/amcis2016/ISSec/Presentations/19/ 
-https://arxiv.org/abs/2211.15784 
-https://link.springer.com/article/10.1007/s13218-022-00763-9 
-https://chatgpt.com/c/68d1069f-6730-8331-ac5d-721a912479a8
-
